@@ -1,1 +1,4 @@
-Ippo ithu tha start
+Selenium IDE - Record and Play tool any person can use example non technical person ithu use panna correct ah irukkum
+
+Selenium WebDrivers - Generally using for Automation ithu multiple platforms, browsers and languages support pannum
+
