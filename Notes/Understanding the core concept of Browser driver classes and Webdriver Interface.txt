@@ -1,2 +1,6 @@
 Execution epovum main method ulla iruntha tha aagum, main method veliya execution nadakathu
 
+Oru Object nama create pandrathu antha class ulla irukura ella methods um access pandrathukku
+  For example; WebDriver driver = new ChromeDriver(); // WebDriver interface ulla irukura ellam methods um use pandrathukku
+Oru class ulla irukura method ah inga use pandrathuku Object create pandrom
+
