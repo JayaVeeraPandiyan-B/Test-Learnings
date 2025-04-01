@@ -1,4 +1,9 @@
 Selenium IDE - Record and Play tool any person can use example non technical person ithu use panna correct ah irukkum
 
-Selenium WebDrivers - Generally using for Automation ithu multiple platforms, browsers and languages support pannum
+Selenium WebDrivers - Generally using for Automation ithu multiple platforms, browsers and languages support pannum. Ithu open source tool, excelusivly for Web Based application.
 
+Namma Selenium WebDriver client libraries nama eluthura code/script command ah HTTPS Requests ah W3C WebDriver Protocol padi translate pannidum athanala nama enna language la eluthunalum, cross browser testing pannalum athu support pannuthu
+
+Browser Driver - This driver is a small program ithu oru translator ah WebDriver Protocols kum Driver kum irukkum, ithu selenium kudukala, antha antha browser eh ithu kudupanga. ovoru brower um vera language la create panirkalam ithu W3C Protocol padi understand aagura maari convert panni kudukum
+
+Inteview question ithu kekalam - what is the standard protocol Selenium uses to communicate with the browsers? W3C Protocol ithuku munndai Jason Wire use pananga ipo nowadays W3C use pandranga because W3C mojority ah browsers support pannum, Script execution consistant ah irukkum.
