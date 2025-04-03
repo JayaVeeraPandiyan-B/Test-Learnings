@@ -1,17 +1,82 @@
 Java la rendu data types irukku, Primitive and Non primitive
 
-Primitive ellamey inbuilt already java la predifined ah irukkurathu
-
-Non primitive namma usage ku etha maari panikalam
+Primitive ellamey inbuilt already java la predifined ah irukkurathu, Size fixed
 
 Primitive Data Types - Byte, Short, int, long, float, double, boolean and Char
 
   Storage information
   
-    Byte - 1 byte - stores whole numbers from -128 to 127
+    byte - 8 bit(1 byte) - stores whole numbers from -128 to 127
+    short - 16 bit(2 bytes) - stores whole numbers from -32768 to 32767
+    int - 32 bit(4 bytes) - stores whole numbers from -2,147,483,648 to 2,147,483,647 
+    long - 64 bit(8 bytes) - stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+    float - 32 bit(4 bytes) - stores fractional numbers ±3.40282347E+38F (6-7 decimal digits) example 15.13f (f mention pananum)
+    double - 64 bit(8 bytes) - stores fractional numbers ±1.79769313486231570E+308 (15 decimal digits)
+    char - 16 bit(2 bytes) - Used for storing characters like 'a', 'b', or symbols like '$'. '' ithu kulla eluthanum
+    boolean - 1 bit - Used for logical values (true or false)
 
-    Short - 2 bytes - stores whole numbers from -32768 to 32767
+Non primitive namma usage ku etha maari panikalam, Objects and/or Collections store panikalam, ithu user defined pandrathu than
+more flexible.
 
-    Int - 4 bytes - stores whole numbers from 
+Non primitive Data Types - Strings, Arrays, Classes, Objects, Interfaces, Enums and Collections
 
-![image](https://github.com/user-attachments/assets/317a10ea-ac9f-4fa3-88ba-0162e6cc42da)
+  Storage information
+
+    Strings - Strings represent sequences of characters, Strings are immutable (Once create panita values change pana mudiyathu)
+              But java ithu manipulate oandrathukku sila clasess vachi irukku like String Builder, String Buffer..
+
+    Arrays - Single variable la same type of multiple data va store panikalam (int[] numbers = {1, 2, 3, 4, 5};), ithu Array nu "[]"
+              Intha box kuduthu than declare panamudiyum
+              * Arrays fixed size tha, koota kuraika mudiyathu.
+              * Primitive and Non-primitive data va store panikalam.
+              * Indices method la data va access panikalam, example 1, 2, 3, 4 irukuna inga 1 vanthu 0th indice and 2 1st. Ithu maari
+
+   Classes - Classes vanthu user defined pandra oru blueprint object create pandrathukku ithu data and methods ah encapsule panum.
+             * Classes structure and oru object oda behaviour ah define panum
+             * Objects tha classes oda instance
+
+   Objects - Objects tha classes oda instance, attributes and behaviour ah real world entity ah represent pannum
+             * Objects 'new' keyword use pani create panuvom
+             * Objects data va store pani manipulate pandrathukku methods um provide pannum
+
+             Example:
+
+             class Person  {
+
+             String name;
+             int age;
+
+             Person person = new Person();
+             person.name = "Jaya"
+             person.age = "20"
+
+             }
+
+  Interfaces - Interfaces oru abstract type, ithu oru rule maari classes use panika mudiyum
+                * Interface normal methods maari logic la irukathu, method signature mattum tha irukkum
+                * Oru class Interface ah implements keyword use panni call panikalam
+
+  Enums - Enums la special classes athu fixed set ah constants ah represent pannum, athavathu once fix/declare panita maatha mudiyathu
+          * Enums ah class ullayum kudukalam vera class la irunthu kooda call panalam, nama kudukura modifier ku etha maari access
+            level irukkum
+
+            enum Days {
+              MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+            }
+
+            Day today = Day.MONDAY;
+
+            if(today == Day.MONDAY)  {
+                System.out.println("It is the starting day of business week");
+            }
+
+  Collections - Collections oru framework ithu "List", "Sets" and "Map" apdinu data structures provide pannum
+                * Collections are part of the java.util package.
+
+Primitive Types:
+  * Store simple values (e.g., int, boolean).
+  * Fixed size and predefined by Java.
+
+Non-Primitive Types:
+  * Store references to objects or collections.
+  * Can be user-defined and are more flexible.
