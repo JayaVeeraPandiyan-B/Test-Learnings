@@ -15,28 +15,7 @@ Oru method na athukku oru format irukku,
 
 Example:
 
-  public class Rough {
-	
-	public static void main(String[] args)	{
-		
-		String print = Rough.calculation(); // Class name vachi method koopudrom
-		System.out.println(print);
-	}
-	
-	public static String calculation()	{
-		
-		String name = "Jaya Veera Pandiyan B";
-    int age = 20;
-		return name + ", " + age;
-		
-	}
-
-  }
-
 ![image](https://github.com/user-attachments/assets/536a7b11-18e4-48f9-a0bb-3abbf7f1ab39)
 
 Ipo intha program ku console la "Jaya Veera Pandiyan B, 20" nu print aagum
-
-
-
 
