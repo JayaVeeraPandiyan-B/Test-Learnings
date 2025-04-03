@@ -14,3 +14,4 @@ Primitive Data Types - Byte, Short, int, long, float, double, boolean and Char
 
     Int - 4 bytes - stores whole numbers from 
 
+![image](https://github.com/user-attachments/assets/317a10ea-ac9f-4fa3-88ba-0162e6cc42da)
