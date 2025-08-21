@@ -1,1 +1,9 @@
 Selenium-Java
+testng
+cucumber-java
+cucumber-testng
+poi
+poi-ooxml
+poi-ooxml-schemas
+xmlbeans
+commons-collections4
